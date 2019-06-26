@@ -13,7 +13,7 @@ def arg_parse():
     Parse arguements to the detect module
     """
     
-    parser = argparse.ArgumentParser(description='YOLO v3 Detection Module')
+    parser = argparse.ArgumentParser(description='Anime head detector based on Yolo V3.')
    
     parser.add_argument("--images", dest = 'images', help = 
                         "Image / Directory containing images to perform detection upon",
