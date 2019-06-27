@@ -35,3 +35,6 @@ Although all our training data was labeled on a color anime set, the algorithm g
 * `main.py` provides all necessary functionality. `python main.py` should run out of box. It takes the images in `imgs`, does detection, and visualizes the results in `det`. Check `python main.py --help` for detailed usage.
 
 ## More comments
+
+* You may want to tweak the `CONFIDENCE_THRESHOLD` in `AnimeHeadDetector.py` for the desired detection precision/recall.
+* The training data is merely 200 images from two animes. The algorithm works surprisingly well.
