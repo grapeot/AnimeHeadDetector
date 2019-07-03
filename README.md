@@ -31,7 +31,7 @@ Although all our training data was labeled on a color anime set, the algorithm g
 
 * First clone the repo using `git clone --recursive https://github.com/grapeot/AnimeHeadDetector`. Note the `--recursive` switch. It's necessary because we used `git submodule` to manage the dependency of PyTorch implementation.
 * Use `pip install -r requirements.txt` to install the dependencies.
-* And then download the pre-trained model using the `./downloadWeights.sh` script.
+* And then download the pre-trained model using the `./downloadWeights.sh` script. (I just found my website cannot be accessed from within China. For China users, you can also download using this [Baidu Pan link](https://pan.baidu.com/s/1Ke0DZ7Ptai5RCc3wL1VDMA), with access code `m88e`.)
 * `main.py` provides all necessary functionality. `python main.py` should run out of box. It takes the images in `imgs`, does detection, and visualizes the results in `det`. Check `python main.py --help` for detailed usage.
 
 ## More comments
